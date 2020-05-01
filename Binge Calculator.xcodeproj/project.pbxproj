@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B5C6C54245B8C15000DBF3E /* TVShowAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C6C53245B8C15000DBF3E /* TVShowAPI.swift */; };
+		0B5C6C9E245CA424000DBF3E /* ShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C6C9D245CA423000DBF3E /* ShowTableViewCell.swift */; };
+		0BD3248E245B70E60056795B /* TvShowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3248D245B70E60056795B /* TvShowTableViewController.swift */; };
+		0BD32492245B710F0056795B /* TvShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD32491245B710F0056795B /* TvShow.swift */; };
 		0BD3F75C245B6761003CECD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3F75B245B6761003CECD2 /* AppDelegate.swift */; };
 		0BD3F75E245B6761003CECD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3F75D245B6761003CECD2 /* SceneDelegate.swift */; };
-		0BD3F760245B6761003CECD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3F75F245B6761003CECD2 /* ViewController.swift */; };
 		0BD3F763245B6761003CECD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BD3F761245B6761003CECD2 /* Main.storyboard */; };
-		0BD3F766245B6761003CECD2 /* Binge_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0BD3F764245B6761003CECD2 /* Binge_Calculator.xcdatamodeld */; };
 		0BD3F768245B676D003CECD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BD3F767245B676D003CECD2 /* Assets.xcassets */; };
 		0BD3F76B245B676D003CECD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BD3F769245B676D003CECD2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B5C6C53245B8C15000DBF3E /* TVShowAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVShowAPI.swift; sourceTree = "<group>"; };
+		0B5C6C9D245CA423000DBF3E /* ShowTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTableViewCell.swift; sourceTree = "<group>"; };
+		0BD3248D245B70E60056795B /* TvShowTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowTableViewController.swift; sourceTree = "<group>"; };
+		0BD32491245B710F0056795B /* TvShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShow.swift; sourceTree = "<group>"; };
 		0BD3F758245B6761003CECD2 /* Binge Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Binge Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BD3F75B245B6761003CECD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BD3F75D245B6761003CECD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0BD3F75F245B6761003CECD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0BD3F762245B6761003CECD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0BD3F765245B6761003CECD2 /* Binge_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Binge_Calculator.xcdatamodel; sourceTree = "<group>"; };
 		0BD3F767245B676D003CECD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BD3F76A245B676D003CECD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BD3F76C245B676D003CECD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,12 +64,14 @@
 			children = (
 				0BD3F75B245B6761003CECD2 /* AppDelegate.swift */,
 				0BD3F75D245B6761003CECD2 /* SceneDelegate.swift */,
-				0BD3F75F245B6761003CECD2 /* ViewController.swift */,
 				0BD3F761245B6761003CECD2 /* Main.storyboard */,
+				0B5C6C53245B8C15000DBF3E /* TVShowAPI.swift */,
+				0BD3248D245B70E60056795B /* TvShowTableViewController.swift */,
+				0B5C6C9D245CA423000DBF3E /* ShowTableViewCell.swift */,
+				0BD32491245B710F0056795B /* TvShow.swift */,
 				0BD3F767245B676D003CECD2 /* Assets.xcassets */,
 				0BD3F769245B676D003CECD2 /* LaunchScreen.storyboard */,
 				0BD3F76C245B676D003CECD2 /* Info.plist */,
-				0BD3F764245B6761003CECD2 /* Binge_Calculator.xcdatamodeld */,
 			);
 			path = "Binge Calculator";
 			sourceTree = "<group>";
@@ -141,10 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BD3F760245B6761003CECD2 /* ViewController.swift in Sources */,
+				0B5C6C9E245CA424000DBF3E /* ShowTableViewCell.swift in Sources */,
+				0BD32492245B710F0056795B /* TvShow.swift in Sources */,
+				0BD3248E245B70E60056795B /* TvShowTableViewController.swift in Sources */,
+				0B5C6C54245B8C15000DBF3E /* TVShowAPI.swift in Sources */,
 				0BD3F75C245B6761003CECD2 /* AppDelegate.swift in Sources */,
 				0BD3F75E245B6761003CECD2 /* SceneDelegate.swift in Sources */,
-				0BD3F766245B6761003CECD2 /* Binge_Calculator.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,19 +348,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		0BD3F764245B6761003CECD2 /* Binge_Calculator.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				0BD3F765245B6761003CECD2 /* Binge_Calculator.xcdatamodel */,
-			);
-			currentVersion = 0BD3F765245B6761003CECD2 /* Binge_Calculator.xcdatamodel */;
-			path = Binge_Calculator.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 0BD3F750245B6761003CECD2 /* Project object */;
 }
